@@ -52,7 +52,7 @@ def task_4(string: str) -> int:
 
 def task_5(array: List[int]) -> int:
     min_num = array[0]
-    for i in range(1, len(array)):
-        if min_num > array[i]:
-            min_num = array[i]
+    for ii in range(1, len(array)):
+        if min_num > array[ii]:
+            min_num = array[ii]
     return min_num
