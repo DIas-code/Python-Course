@@ -10,6 +10,7 @@ def task_1(array: List[int], target: int) -> List[int]:
         checked_nums.add(num)
     return []
 
+
 def task_2(number: int) -> int:
     res_num = 0
     sign = -1 if number < 0 else 1
@@ -19,6 +20,7 @@ def task_2(number: int) -> int:
         number //= 10
 
     return sign * res_num
+
 
 def task_3(array: List[int]) -> int:
     myDict = dict()
